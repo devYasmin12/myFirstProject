@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#HomeDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    #SummaryDiv{
+        width: 45%;
+        height: 100vh;
+        background-color: rgb(31, 42, 48);
+        padding: 10px 0 0 0;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        #CCCdiv{
+             padding: 35px 30px 0 30px;
+            h4{
+                color: rgba(255, 255, 255, 0.712);
+            }
+            .SumDiv{
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                margin: 20px 0;
+                p{
+                    color: rgba(255, 255, 255, 0.514);
+                }
+                .line{
+                    border: 1px solid rgba(255, 255, 255, 0.548);
+                    height: 7vh;
+                    margin: 0 30px 0 160px;
+                }
+            
+            }
+
+        }
+        
+        #PriceDiv{
+            background-color: rgb(245, 58, 58);
+            width: 100%;
+            height: 50vh;
+            padding: 10px 30px 0 30px;
+        }
+    }
+    
+    #MetDiv{
+        width: 65%;
+        height: 100%;
+        form{
+            background-color: rgb(255, 255, 255);
+            padding: 35px;
+            width: 100%;
+            height: 100vh;
+            h2{
+                color: rgb(224, 73, 73);
+            }
+    
+            #IMGDiv{
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                margin-bottom: 15px;
+                
+    
+                #imgDIv{
+                    border: 1px solid gray;
+                    padding: 7px 30px;
+                    margin: 10px 10px 10px 0;
+                    img:nth-child(1){
+                        height: 33px;
+                        width: 50px;
+                    }
+                    img:nth-child(2){
+                        height: 36px;
+                        width: 50px;
+                    }
+                }
+                #imGDiv{
+                    border: 1px solid gray;
+                    padding: 10px 35px;
+                    margin: 10px 10px 10px 0;
+                    img{
+                        height: 30px;
+                        width: 90px;
+                    }
+                }
+            }
+
+            .inpDiv{
+                input{
+                    width: 100%;
+                    padding: 10px 0 10px 3px;
+                    margin: 10px 0 17px 0;
+                }
+            }
+            #TwoInpDiv{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                input{
+                    width: 100%;
+                    margin: 10px 0 17px 0;
+                    padding: 10px 150px 10px 10px;
+                }
+            }
+            #btmDiv{
+                button{
+                    margin: 15px 0;
+                    background-color: rgb(16, 214, 214);
+                    border: none;
+                    color: aliceblue;
+                    padding: 10px 75px;
+                    i{
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }    
+}
+
+

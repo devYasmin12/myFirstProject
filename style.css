@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aqua;
+}
+
+#HomeDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#HomeDiv #SummaryDiv {
+  width: 45%;
+  height: 100vh;
+  background-color: rgb(31, 42, 48);
+  padding: 10px 0 0 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+#HomeDiv #SummaryDiv #CCCdiv {
+  padding: 35px 30px 0 30px;
+}
+#HomeDiv #SummaryDiv #CCCdiv h4 {
+  color: rgba(255, 255, 255, 0.712);
+}
+#HomeDiv #SummaryDiv #CCCdiv .SumDiv {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 20px 0;
+}
+#HomeDiv #SummaryDiv #CCCdiv .SumDiv p {
+  color: rgba(255, 255, 255, 0.514);
+}
+#HomeDiv #SummaryDiv #CCCdiv .SumDiv .line {
+  border: 1px solid rgba(255, 255, 255, 0.548);
+  height: 7vh;
+  margin: 0 30px 0 160px;
+}
+#HomeDiv #SummaryDiv #PriceDiv {
+  background-color: rgb(245, 58, 58);
+  width: 100%;
+  height: 50vh;
+  padding: 10px 30px 0 30px;
+}
+#HomeDiv #MetDiv {
+  width: 65%;
+  height: 100%;
+}
+#HomeDiv #MetDiv form {
+  background-color: rgb(255, 255, 255);
+  padding: 35px;
+  width: 100%;
+  height: 100vh;
+}
+#HomeDiv #MetDiv form h2 {
+  color: rgb(224, 73, 73);
+}
+#HomeDiv #MetDiv form #IMGDiv {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 15px;
+}
+#HomeDiv #MetDiv form #IMGDiv #imgDIv {
+  border: 1px solid gray;
+  padding: 7px 30px;
+  margin: 10px 10px 10px 0;
+}
+#HomeDiv #MetDiv form #IMGDiv #imgDIv img:nth-child(1) {
+  height: 33px;
+  width: 50px;
+}
+#HomeDiv #MetDiv form #IMGDiv #imgDIv img:nth-child(2) {
+  height: 36px;
+  width: 50px;
+}
+#HomeDiv #MetDiv form #IMGDiv #imGDiv {
+  border: 1px solid gray;
+  padding: 10px 35px;
+  margin: 10px 10px 10px 0;
+}
+#HomeDiv #MetDiv form #IMGDiv #imGDiv img {
+  height: 30px;
+  width: 90px;
+}
+#HomeDiv #MetDiv form .inpDiv input {
+  width: 100%;
+  padding: 10px 0 10px 3px;
+  margin: 10px 0 17px 0;
+}
+#HomeDiv #MetDiv form #TwoInpDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#HomeDiv #MetDiv form #TwoInpDiv input {
+  width: 100%;
+  margin: 10px 0 17px 0;
+  padding: 10px 150px 10px 10px;
+}
+#HomeDiv #MetDiv form #btmDiv button {
+  margin: 15px 0;
+  background-color: rgb(16, 214, 214);
+  border: none;
+  color: aliceblue;
+  padding: 10px 75px;
+}
+#HomeDiv #MetDiv form #btmDiv button i {
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */
